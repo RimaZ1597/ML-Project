@@ -1,5 +1,4 @@
-# Supervised Machine Learning
-# Hallmarks-of-Alzeihemers
+# Age-Specific Protein Biomarker Analysis in Alzheimer's Disease using Supervised Learning
 
 Alzheimer’s disease (AD) is an incredibly complex and presently incurable age-related brain disorder. To better understand this debilitating disease, we collated and performed a meta-analysis on publicly available proteomics and microRNA samples derived from AD patients and non-AD controls. From the samples originating from brain tissues and blood, there remained after applying quality filters. Since disease progression in AD correlates with age, we tried to stratify this large dataset into three different age groups: < 75 years, 75–84 years, and ≥ 85 years.
 
@@ -66,7 +65,7 @@ Further steps could include revisiting the feature selection process, exploring 
 The F1 scores for Decision Tree and SVM are identical at 0.81, while the Random Forest is slightly lower at 0.79. This suggests that the Decision Tree and SVM models have a slightly better balance between precision and recall compared to the Random Forest.​
 
 ## RESULTS
-- Confusion matrix :  The model effectively detects Alzheimer's disease but struggles with identifying control samples, leading to many false positives. This highlights the need for better balancing and fine-tuning to accurately differentiate between the two groups.​
+- Confusion matrix:  The model effectively detects Alzheimer's disease but struggles with identifying control samples, leading to many false positives. This highlights the need for better balancing and fine-tuning to accurately differentiate between the two groups.​
 - ROC curve:  This model has an AUC of 0.55, indicating it is just a bit better than random guessing. The dashed blue line, which shows random chance with an AUC of 0.5, acts as a reference point. ​
 - To make the model better at distinguishing between outcomes, more improvements are needed​
 Random Forest is the best model among the three, considering it has the best combination of MSE, MAE, recall, precision, and F1 Score. While Decision Tree is very close in performance, Random Forest slightly edges it out due to a marginally better R-squared value and generally better handling of variance.​
