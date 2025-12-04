@@ -1,5 +1,5 @@
 # Supervised Machine Learning
-# hallmarks-of-Alzeihemers
+# Hallmarks-of-Alzeihemers
 
 Alzheimer’s disease (AD) is an incredibly complex and presently incurable age-related brain disorder. To better understand this debilitating disease, we collated and performed a meta-analysis on publicly available proteomics and microRNA samples derived from AD patients and non-AD controls. From the samples originating from brain tissues and blood, there remained after applying quality filters. Since disease progression in AD correlates with age, we tried to stratify this large dataset into three different age groups: < 75 years, 75–84 years, and ≥ 85 years.
 
